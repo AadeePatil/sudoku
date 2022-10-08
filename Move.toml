@@ -1,0 +1,11 @@
+[package]
+name = 'Sudoku'
+version = '1.0.0'
+
+[addresses]
+Sudoku = "_"
+
+[dependencies.Movemate]
+git = 'https://github.com/pentagonxyz/movemate.git'
+subdir = 'aptos'
+rev = 'main'
